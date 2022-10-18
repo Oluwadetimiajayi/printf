@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * ev_print_func - returns the amount of identifiers.
- * @s: argument indentifier
+ * ev_print_func - returns the no of identifiers
+ * @s: argument identifier
  * @index: index of argument identifier
- * Return: amount of identifiers
+ * Return: number of identifiers
  */
 int ev_print_func(const char *s, int index)
 {
-	print_t pr[] = {
+	vault_t pr[] = {
 		{"c", print_chr}, {"s", print_str}, {"i", print_int},
 		{"d", print_int}, {"b", print_bnr}, {"u", print_unt},
 		{"o", print_oct}, {"x", print_hex}, {"X", print_upx},
