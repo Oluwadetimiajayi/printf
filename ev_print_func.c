@@ -7,7 +7,7 @@
  */
 int ev_print_func(const char *s, int index)
 {
-	vault_t pr[] = {
+	vault_t vlt[] = {
 		{"c", print_chr}, {"s", print_str}, {"i", print_int},
 		{"d", print_int}, {"b", print_bnr}, {"u", print_unt},
 		{"o", print_oct}, {"x", print_hex}, {"X", print_upx},
@@ -30,11 +30,11 @@ int ev_print_func(const char *s, int index)
 	int i = 0, j = 0, first_index;
 
 	first_index = index;
-	while (pr[i].id)
+	while (vlt[i].id)
 	{
-		if (s[index] == pr[i].id[j])
+		if (s[index] == vlt[i].id[j])
 		{
-			if (pr[i].id[j + 1] != '\0')
+			if (vlt[i].id[j + 1] != '\0')
 				index++, j++;
 			else
 				break;
