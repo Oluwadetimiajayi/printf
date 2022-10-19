@@ -13,9 +13,8 @@
 /**
  * struct vault - Struct token
  * Description: stores pointers to called functions
- * @id - identifies the type of argument
- * @format: format specifier
- * @f: pointer to called functions
+ * @id: type of argument identifier
+ * @f: pointer to called function
  */
 
 typedef struct vault
