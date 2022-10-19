@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * ev_print_func - returns the no of identifiers
+ * ev_print_func - returns the number of identifiers
  * @s: argument identifier
  * @index: index of argument identifier
+ *
  * Return: number of identifiers
  */
 int ev_print_func(const char *s, int index)
