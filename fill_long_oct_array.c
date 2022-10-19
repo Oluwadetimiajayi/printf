@@ -2,8 +2,8 @@
 /**
  * fill_long_oct_array - calculates a long octal number
  *
- * @bnr: array wherethe binary is stored the binary.
- * @oct: array where the octal is stored the octal.
+ * @bnr: array wherethe binary is stored.
+ * @oct: array where the octal is stored.
  *
  * Return: binary array.
  */
