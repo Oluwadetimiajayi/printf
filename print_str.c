@@ -3,7 +3,7 @@
 /**
  * print_str - writes the string to stdout
  * @arguments: input string
- * @buf: buffer pointer
+ * @buf: buffer pointer.
  * @ibuf: index for buffer pointer
  * Return: On success 1.
  */
