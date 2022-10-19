@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_upx - prints a decimal in hexadecimal
+ * print_upx - prints a decimal in hexadecimal.
  * @arguments: The character to print
  * @buf: buffer pointer
  * @ibuf: index for buffer pointer
