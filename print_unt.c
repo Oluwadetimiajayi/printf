@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_unt - prints an unsigned int
- * @arguments: number to print
+ * @arguments: The number to print
  * @buf: buffer pointer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
