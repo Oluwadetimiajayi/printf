@@ -3,7 +3,7 @@
  * fill_short_oct_array - calculates a short octal number
  *
  * @bnr: array where binary is stored.
- * @oct: array where is stored the octal.
+ * @oct: array where the octal is stored the octal.
  *
  * Return: binary array.
  */
